@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/enroll.css" />
+		<style>
+			.content{
+				width: 1000px;
+   				margin: 20px auto;
+   				-webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.1), 1px -2px 20px rgba(0,0,0,0.1) inset;
+				height:400px
+			}
+			.content_left{
+				float:left
+			}
+			.content img{
+				margin-left:15px;
+				margin-top:60px;
+				vertical:middle
+			}
+			.content_right{
+				float:right;
+				width: 352px;
+				height:400px;
+				border-left:1px solid #ddd;
+				margin-right:5px
+			}
+			.content_right>h3{
+				font-size: 18px;
+			    font-weight: 700;
+			    line-height: 20px;
+			    padding: 15px 0 25px 25px;
+			    color: #555;
+				background: #F9F9F9;
+			}
+			form{
+				background: #F9F9F9;
+			    padding: 20px 0 0 0;
+			    overflow: hidden;
+			    zoom: 1;
+			}
+			form>li{
+				width: 100%;
+				text-align:center;
+			    float: left;
+			    clear: both;
+			    padding: 0;
+			    margin-bottom:20px
+			}
+			.txt1, .txt2{
+				font-family: Tahoma;
+			    width: 220px;
+			    height: 20px;
+			    line-height: 20px;
+			    background-color: #FFF;
+			    padding: 10px 8px 10px 50px;
+			    border: solid 1px;
+			    border-color: #BBB;
+			    font-size:16px;
+			    background:url("img/2017_06_14_14_34.02_r2_c2.bmp") no-repeat
+			}
+			.btn1{
+				font-weight: 700;
+   				 color: #FFF;
+   				vertical-align: middle;
+			    width: 98px;
+			    height: 34px;
+			    padding: 0;
+			    margin: 0;
+			    border: 0;
+			    cursor: pointer;
+			    background:orange;
+			    border-radius:5px
+			}
+			.wang{
+				font-weight: 700;
+			    color: #06C;
+			    vertical-align: middle;
+			    margin-left: 10px;
+				line-height: 28px;
+			    height: 28px;
+			    text-align: left;
+			}
+			.zhuce{
+				font-weight: 600;
+			    line-height: 26px;
+			    color: #555;
+			    background:#ddd;
+			    border:1px solid #999;
+			    border-radius:5px;
+			    text-align: center;
+			    display: inline-block;
+			    width: 50px;
+			    height: 26px;
+			    margin: 0 6px;
+			}
+			.zhuce:hover{
+				background:#fff
+			}
+			.qq{
+				border-top:dashed 1px #D8D8D8;
+				width: 100%;
+			    float: left;
+			    clear: both;
+			    padding: 0;
+			    padding:10px;
+			    text-align:center;
+			    height:66px
+			}
+			.qq a{
+				line-height: 28px;
+			    height: 28px;
+			    text-align: left;
+			    color: #999;
+			    display: inline-block;
+			    width:78px;
+			    background: url("img/login.png") no-repeat ;
+			    vertical-align: middle;
+			    margin-top: 10px;
+			}
+			.qq a:nth-child(1){
+				background: url("img/login.png") no-repeat -88px 0
+			}
+			.qq a:nth-child(2){
+				width:88px;
+				background: url("img/login.png") no-repeat -166px 0
+			}
+			.qq a:nth-child(3){
+				width:80px;
+				background: url("img/login.png") no-repeat 0 -200px
+			}
+			.qq a:nth-child(1):hover{
+				background: url("img/login.png") no-repeat -88px -28px
+			}
+			.qq a:nth-child(2):hover{
+				background: url("img/login.png") no-repeat -166px -28px
+			}
+			.qq a:nth-child(3):hover{
+				background: url("img/login.png") no-repeat 0px -228px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top_bj">
+		</div>
+	<!-------------------------内容----------------------------------->
+		<div class="content">
+			<div class="content_left">
+				<img src="img/loginPic.jpg" alt="" />
+			</div>
+			<div class="content_right">
+				<h3>用户登录</h3>
+				<form action="">
+					<li><input type="text" placeholder="手机号/会员名/邮箱" class="txt1"/></li>
+					<li><input type="password" class="txt2"/></li>
+					<li>
+						<input type="button" value="登录" class="btn1"/><a href="logon.html" class="wang">忘记密码？</a>
+					</li>
+					<li>还不是本站会员？立即<a href="logon.html" class="zhuce">注册</a></li>
+					<div class="qq">
+						<p>您可以用合作伙伴账号登录：</p>
+						<ul>
+							<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						</ul>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	<!-------------------------版权----------------------------------->	
+		<div class="foot">
+			<div class="foot_top">
+				<p>友情链接:</p>
+				<a href="#">邢台亿搜人才网</a>
+				<a href="#">邯郸中小企业网</a>
+				<a href="#">亿搜人才网</a>
+				<a href="#">众贤服务网</a>
+				<a href="#">快递查询</a>
+			</div>
+			<ul>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">管理团队</a></li>
+				<li><a href="">商家入驻</a></li>
+				<li><a href="">媒体报道</a></li>
+				<li><a href="">站点地图</a></li>
+				<li><a href="">招贤纳士</a></li>
+				<li><a href="">帮助中心</a></li>
+				<p>ICP备案证书号:<a href="">冀ICP备14019346号-1</a></p>
+				
+			</ul>
+			<div class="imm">
+				<img src="img/cxlogo.png" alt="" />
+		</div>
+	</body>
+</html>
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+	$(".btn1").click(function(){
+		 var deff=$.ajax({
+			type:"get",
+			url:"http://datainfo.duapp.com/shopdata/userinfo.php",
+			data:{
+				status:"login",
+				userID:$(".txt1").val(),
+				password:$(".txt2").val()
+			}
+		})
+		 deff.done(function(res){
+					switch(res){
+						case "0":alert ("用户名不存在");break;
+						case "2":alert("用户名密码不符")
+						 break;
+						
+						default :alert("注册成功了，您的页面将在3秒钟后跳转到登录页面");
+						setTimeout(function(){
+						 location.href = "index.html";
+						},3000)
+						 break;		
+						}
+				})
+	})
+</script>

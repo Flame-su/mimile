@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/shopcar.css" />
+		<style>
+			.content{
+				margin-top:50px;
+				width:100%;
+				background:#F9F9F9;
+				
+			}
+			.content_nav{
+				width: 990px;
+			    border: 1px solid #ddd;
+			    height:35px;
+			    background: #fff;
+			    margin: 0 auto;
+			}
+			.content_nav li{
+				float:left;
+				text-align:center;
+				line-height:35px
+			}
+			.content_nav li input{
+				vertical-align:middle;
+			}
+			
+			.content_nav li:nth-child(1){
+				width:8%
+			}
+			.content_nav li:nth-child(2){
+				width:37%
+			}
+			.content_nav li:nth-child(3){
+				width:15%
+			}
+			.content_nav li:nth-child(4){
+				width:15%
+			}
+			.content_nav li:nth-child(5){
+				width:15%
+			}
+			.content_nav li:nth-child(6){
+				width:10%
+			}
+			.content_box{
+				border: 1px solid #ddd;
+			    min-height:35px;
+			    background: #fff;
+			    margin: 0 auto;
+				width: 990px;
+			}
+			.content form{
+				border: 1px solid #ddd;
+			    height:42px;
+			    background: #fff;
+			    margin: 0 auto;
+				width: 990px;
+				padding:10px 0
+			}
+			.content form li{
+				float:left
+			}
+			.again{
+				display: block;
+			    text-align: center;
+			    font-size: 15px;
+			    margin-left: 15px;
+			    width: 140px;
+			    height: 40px;
+			    line-height: 40px;
+			    background: #fafafa;
+			    border: 1px solid #d9d9d9;
+			}
+			.clear1{
+				display:block;
+				width:80px;
+				color: #aaaaaa;
+			    margin-right: 10px;
+			    float:left;
+			    line-height: 42px;
+   				 margin-left: 30px;
+			}
+			.content form p{
+				float:left;
+				line-height: 42px;
+				margin-left:250px
+			}
+			.content form p span{
+				font-size: 16px;
+    			font-weight: bold;
+    			color: #E31939;
+			}
+			.all{
+				float:right;
+				display: block;
+			    text-align: center;
+			    text-decoration: none;
+			    font-size: 17px;
+			    width: 150px;
+			    height: 40px;
+			    line-height: 40px;
+			    background: #E31939;
+			    margin-right: 25px;
+			    margin-left: 20px;
+			    color:#fff;
+			}
+			.content_box ul{
+				height:96px;
+				line-height:98px;	
+				border-bottom:1px solid #ddd
+			}
+			.content_box ul li{
+				float:left;
+				text-align:center
+				
+			}
+			.content_box img{
+				width:60px;
+				height:60px;
+				float:left;
+				margin:20px 20px 0;
+				
+			}
+			.content_box p{
+				float: left;
+			    
+			    text-align: left;
+			    font-size: 12px;
+			}
+			.content_box ul li span{
+				line-height:96px;	
+				font-size: 14px;    
+				font-weight: bold;
+   				color: rgb(227, 25, 57);
+			}
+			.content_box input{
+				margin-left:-20px;
+			}
+			.content_box li:nth-child(1){
+				width:8%;
+				
+			}
+			.content_box li:nth-child(2){
+				width:37%
+			}
+			.content_box li:nth-child(3){
+				width:15%;
+				height: 50px;
+    			padding-top: 40px;
+			}
+			.content_box li:nth-child(4){
+				width:15%
+			}
+			.content_box li:nth-child(5){
+				width:15%
+			}
+			.content_box li:nth-child(6){
+				width:10%
+			}
+			.minus,.add{
+				width: 15px;
+				text-align:center;
+				border:1px solid #999;
+			    line-height: 15px;
+			    height: 15px;
+			    float: left;
+			    margin-top: 3px;
+			    margin:0 5px
+			}
+			#txt{
+				margin:0;
+				float: left;
+			    width: 38px;
+			    height: 19px;
+			    margin-top: -4px;
+			    text-align: center;
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<div class="hd">
+			<div class="header">
+				<a href="#">登录</a>
+				<a href="#">注册</a>
+				<ul class="header_right">
+					<li>购物车<span></span></li>
+					<li>用户中心
+						<span></span>
+						<div class="hd_nv">
+							<a href="">物品收藏</a>
+							<a href="">店铺收藏</a>
+							<a href="">米米乐收藏</a>
+						</div>
+					</li>
+					<li>我的订单
+						<span></span>
+						<div class="hd_nv">
+							<a href="">导购频道</a>
+							<a href="">售后服务</a>
+							<a href="">导购频道</a>
+							<a href="">售后服务</a>
+						</div>
+					</li>
+					<li>客户服务
+						<span></span>
+						<div class="hd_nv">
+							<a href="">导购频道</a>
+							<a href="">售后服务</a>
+							<a href="">导购频道</a>
+							<a href="">售后服务</a>
+						</div>
+					</li>
+					<li class="hd_last">
+						<img src="img/nav.png" alt="" />
+						<p>网站导航</p>
+						<span></span>
+						<div class="hd_nv">
+							<a href="">导购频道</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="top_bj">
+		</div>
+		<div class="right_fix">
+			<ul>
+				<li><img src="img/right_sevice.png" alt="" /><span><a href="">联系客服</a></span></li>
+				<li><a href="shopcar.html"><img src="img/right_cart.png" alt="" /></a></li>
+				<li><img src="img/right_history.png" alt="" /></li>
+				<li>
+					<img src="img/right_erweima.png" alt="" />
+					<span class="app">
+						<img src="img/right_zhankai_erweima.png" alt="" />
+					</span>
+				</li>
+				<li>
+					<img src="img/right_top.png" alt="" />
+					<h3>TOP</h3>
+					<span class="TOP"><a href="">回到顶部</a></span>
+				</li>
+			</ul>
+		</div>
+		<!--购物车内容-->
+		<div class="content">
+			<div class="content_nav">
+				<li><input type="checkbox" class="allcheck" checked="checked"/>全选</li>
+				<li>产品</li>
+				<li>数量</li>
+				<li>本店价格</li>
+				<li>小计</li>
+				<li>操作</li>
+			</div>
+			<div class="content_box"> 
+			</div>
+			<form action="">
+				<li><a href="index.html" class="again">继续购物</a></li>
+				<a href="#" class="clear1">清空购物车</a>
+				<p>应付金额：<span class="all_price">0.00</span>，比市场价0.00节省了</p>
+				<a href="#" class="all">去结算</a>
+			</form>
+		</div>
+		<div class="shop"></div>
+		<div class="last">
+			<div class="last_box">
+				<div class="last_left">
+					<ul>
+						<li>
+							<dl>
+								<dt>购物指南</dt>
+								<dd><a href="">礼品卡的购买与使用</a></dd>
+								<dd><a href="">无法收到邮件？</a></dd>
+								<dd><a href="">关于捷信分期 </a></dd>
+								<dd><a href="">邮费制度</a></dd>
+								<dd><a href="">订单状态说明</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>购物指南</dt>
+								<dd><a href="">礼品卡的购买与使用</a></dd>
+								<dd><a href="">无法收到邮件？</a></dd>
+								<dd><a href="">关于捷信分期 </a></dd>
+								<dd><a href="">邮费制度</a></dd>
+								<dd><a href="">订单状态说明</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>购物指南</dt>
+								<dd><a href="">礼品卡的购买与使用</a></dd>
+								<dd><a href="">无法收到邮件？</a></dd>
+								<dd><a href="">关于捷信分期 </a></dd>
+								<dd><a href="">邮费制度</a></dd>
+								<dd><a href="">订单状态说明</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>购物指南</dt>
+								<dd><a href="">礼品卡的购买与使用</a></dd>
+								<dd><a href="">无法收到邮件？</a></dd>
+								<dd><a href="">关于捷信分期 </a></dd>
+								<dd><a href="">邮费制度</a></dd>
+								<dd><a href="">订单状态说明</a></dd>
+							</dl>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="last_right">
+					<div class="kefu">
+						<h3>客服中心</h3>
+						<p>4006-780-781</p>
+						<h4>E-mail：mmloo@mmloo.com</h4>
+						<h4>四川省成都市新南路亚华大厦六楼</h4>
+						<h5>4006780781</h5>
+					</div>
+					<div class="erwei">
+						 <h3>关于米米乐商城</h3>
+						 <img src="img/scmmloo.png" alt="" style="height:80px;width:80px"/>
+						 <p>手机下单更优惠<br>快乐网购 轻松拥有</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-------------------------版权----------------------------------->	
+		<div class="foot">
+			<div class="foot_top">
+				<p>友情链接:</p>
+				<a href="#">邢台亿搜人才网</a>
+				<a href="#">邯郸中小企业网</a>
+				<a href="#">亿搜人才网</a>
+				<a href="#">众贤服务网</a>
+				<a href="#">快递查询</a>
+			</div>
+			<ul>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">管理团队</a></li>
+				<li><a href="">商家入驻</a></li>
+				<li><a href="">媒体报道</a></li>
+				<li><a href="">站点地图</a></li>
+				<li><a href="">招贤纳士</a></li>
+				<li><a href="">帮助中心</a></li>
+				<p>ICP备案证书号:<a href="">冀ICP备14019346号-1</a></p>
+				
+			</ul>
+		<div class="imm">
+			<img src="img/cxlogo.png" alt="" />
+		</div>
+	</body>
+
+	</body>
+</html>
+<script src="cookie.js"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="js/shopcar.js"></script>
+<script>
+	var cookieInfo = getCookie("shoplist");
+	
+		
+	
+	var html = "";
+
+	for (var i= 0 ; i < cookieInfo.length ; i++) {
+		
+		shopinfo = cookieInfo[i];
+		$("#txt").val()
+		html +=`<ul>
+					<li><input type="checkbox" class="ck" checked="<checked></checked>"/></li>
+					<li>
+						<img src="img/${shopinfo.src}" alt="" />
+						<p>${shopinfo.name}</p>
+					</li>
+					<li>
+						<div class="updateCount minus">-</div>
+						<input type="text" value="${shopinfo.count}" id="txt"/>
+						<div class="updateCount add">+</div>
+					</li>
+					<li>
+						<span>￥${shopinfo.price}</span>
+					</li>
+					<li>
+						<span class="price">${(shopinfo.count*shopinfo.price).toFixed(2)}</span>
+					</li>
+					<li>
+						<a href="#" class="delBtn">删除</a>
+						<span style="display:none" class="str" data-name=${shopinfo.name} data-src=${shopinfo.src} data-price=${shopinfo.new_price} data-count=${shopinfo.count}></span>
+					</li>
+				</ul>`
+			}
+	
+
+	$(".content_box").html( html );
+	
+	$(".delBtn").click(function(){
+		var src=$(".str").data("src")
+		
+		if( confirm("确定要删除么？") ){
+			//根据这个id去 获取的cookie数据中做比较   删除cookie中对应的商品
+			for(var i = 0 ; i <cookieInfo.length ; i++ ){
+				if( src == cookieInfo[i].src ){
+					//删除数组中的某一个数据
+					cookieInfo.splice(i,1);
+					
+					//改cookie   重设cookie
+					setCookie("shoplist",JSON.stringify( cookieInfo ));
+					
+					break;
+				}
+			}
+			$(this).parent().parent().remove();
+		}
+	})
+	
+	/*$(".content_box").on("blur","#txt",function(){
+		$(this).find(".price").html((shopinfo.count*shopinfo.price).toFixed(2))
+		shopinfo.count=$(this).val()
+		setCookie("shoplist",JSON.stringify(cookieInfo));
+		jiesuan();
+	})*/
+		
+		$(".allcheck").click(function(){
+			$(".ck").prop("checked",$(this).prop("checked"));
+			jiesuan();
+		})
+		
+		$(".ck").click(function(){
+			jiesuan();
+		})
+		$(document).ready(function(){
+			if($(".ck").prop("checked")){
+				jiesuan();
+			}
+		})
+		//结算功能
+		function jiesuan(){
+			var sumPrice = 0;
+			$(".ck:checked").each(function(){
+				
+				sumPrice += parseInt( $(this).parent().parent().find(".price").html() )
+				
+			})
+			$(".all_price").html( sumPrice );
+		}
+		
+		
+		//加减操作
+	$(".updateCount").click(function(){
+		//确定当前操作的对象id
+		
+		var src=$(this).parent().parent().find(".str").data("src")
+		var sumPrice = 0;
+		var flag = $(this).html();
+		var count = $(this).parent().parent().find("#txt").val()
+	
+		//alert(count)
+		
+		//如果当前操作对象的数量为1  并且操作的符号是 - ， 直接返回
+		console.log(count)
+		if( count<=1 && flag == "-" ){
+			return;
+		}
+		for(var i = 0 ; i < cookieInfo.length ; i++){
+			if( src == cookieInfo[i].src ){
+				flag == "+" ? cookieInfo[i].count++ : cookieInfo[i].count--;
+				//修改cookie信息
+				setCookie("shoplist",JSON.stringify(cookieInfo));
+				
+				//修改界面信息
+				$(this).parent().parent().find("#txt").val( cookieInfo[i].count );
+				$(this).parent().parent().find(".price").html( (cookieInfo[i].count * cookieInfo[i].price).toFixed(2));
+				jiesuan()
+				
+			}
+		}
+	})
+	
+	$(".clear1").click(function(){
+		$(".all_price").html("0.00")
+		$(".content_box ul").remove()
+		setCookie("shoplist","[]")
+	})
+</script>

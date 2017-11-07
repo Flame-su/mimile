@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/logon.css" />
+		<style>
+			form{
+				width:1000px;
+				margin:0 auto;
+				overflow:hidden
+			}
+			.nv{
+				overflow:hidden
+			}
+			.nv img{
+				width: 212px;
+			    height: 75px;
+			    float: left;
+			    margin: 25px 60px auto 0;
+				overflow:hidden
+			}
+			.nv>span{
+				float: left;
+			    display: block;
+			    height: 75px;
+			    line-height: 85px;
+			    font-size: 20px;
+			    margin: 25px 0 0 -55px;
+			}
+			.nv_right{
+				float: right;
+				margin-top:80px	
+			}
+			.box{
+				width: 1000px;
+    			height:523px;
+    			margin: 20px auto;
+    			-webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.1), 1px -2px 20px rgba(0,0,0,0.1) inset;
+			}
+			.box_nav{
+				height:42px;
+				border-bottom: 1px solid #E6E6E6;
+				text-align: center;
+			}
+			.box_nav span{
+				display: inline-block;
+			    padding: 10px 20px 2px;
+			    text-align: center;
+			    font-size: 22px;
+			    margin: 0 26px 0 27px;
+			    cursor: pointer;
+			    color: #E02423;
+   				border-bottom: 2px solid #E02423;
+			}
+			.centent{
+				background: #F9F9F9;
+			    padding: 20px 0 0 0;
+			    overflow: hidden;
+			    zoom: 1;
+				width:410px;
+				height:450px;
+				margin:0 auto
+			}
+			.centent li{
+				position:relative
+			}
+			li>input{
+				display:inline-block
+			}
+			.txt1,.txt2,.txt5{
+				font-size: 16px;
+    			border: 1px solid #E6E6E6;
+			    height: 40px;
+			    width: 398px;
+			    text-indent: 10px;
+			}
+			li span{
+				clear: both;
+			    display: block;
+			    line-height: 26px;
+			    height: 26px;
+			    width: 210px;
+			    margin: 0;
+			    text-indent: 10px;
+			   	color: #F30;
+			   	text-align:left;
+			   	font-size:16px;
+			   	opacity:0
+			}
+			li>i{
+				position: absolute;
+			    right: 16px;
+			    top: 13px;
+			    width: 16px;
+			    height: 16px;
+			    background: url("img/correct.png");
+			    display:none
+			}
+			.txt3,.txt4{
+				width: 148px;
+    			border: 1px solid #E6E6E6;
+			    height: 40px;
+			    text-indent: 10px;
+			}
+			#ceb{
+				vertical-align: middle;
+			    font-size: 16px;
+			    border: 1px solid #E6E6E6;
+			    
+			}
+			.box_last a{
+				color: #c53801;
+   				 font-weight: 600;
+			}
+			.btn1{
+				font-size: 14px;
+			    font-weight: 700;
+			    color: #FFF;
+			    background: url("img/register.png") no-repeat;
+			    vertical-align: middle;
+			    width: 400px;
+			    height: 40px;
+			    padding: 0;
+			    margin: 20px 0;
+			    border: 0;
+			    cursor: pointer;
+			    clear: both;
+			}
+			.btn2{
+				font-size: 16px;
+    			border: 1px solid #E6E6E6;
+				width: 148px;
+			    height: 42px;
+			    line-height: 40px;
+			    border: 1px solid #BBB;
+			    float: right;
+			    text-align: center;
+			    margin-right: 90px;
+			    background: #F4F4F4;
+			    color: #777;
+			    cursor: pointer;
+			}
+			.mask{
+				position:absolute;
+				border: 1px solid #E6E6E6;
+				width: 142px;
+			    height: 38px;
+			    background:rgba(0,0,0,0);
+			    right:92px;
+			    top:1px;
+			    display:none
+			}
+			.yz{
+				width: 60px;
+			    height: 16px;
+			    border: 1px solid;
+			    float: left;
+			    margin:8px 20px;
+			    padding:5px 15px;
+			    line-height:16px
+			}
+			.huan{
+				float: left;
+				color: #00549D;
+				font-size:16px;
+				margin-top:10px;
+				font-weight:normal
+			}
+			.huan:hover{
+				color:red
+			}
+			.right_i{
+				RIGHT:270px
+			}
+			.nv_right a{
+				color: #00549D;
+			}
+			.nv_right a:hover{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top_bj">
+		</div>
+		<form action="">
+			<div class="nv">
+				<img src="img/05053060183653829.png" alt="" />
+				<span>欢迎注册</span>
+				<div class="nv_right">
+					已注册，请
+					<a href="enroll.html">登录></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="box_nav">
+					<span>个人用户注册</span>
+				</div>
+				<div class="centent">
+					<li><input type="text" class="txt1" placeholder="手机号码" title="请输入11位手机号"/><i></i><span>手机号码不正确</span></li>
+					<li><input type="passwork" class="txt2" placeholder="设置密码"/><i></i><span>密码长度应在6-20个字符</span></li>
+					<li><input type="text" class="txt3" placeholder="验证码" style="float:left"/><i class="right_i"></i><div class="yz"></div><b class="huan">看不清，换一张</b><span>验证码不正确</span></li>
+					<li><input type="text" class="txt4" placeholder="短信验证码"/><input type="button" class="btn2" value="获取验证码"/><span>手机号码只有11位</span><div class="mask"></div></li>
+					<li><input type="text" class="txt5"	placeholder="好友推荐码(非必填)"/><span>手机号码只有11位</span></li>
+					<div class="box_last">
+						<input type="checkbox" id="ceb" checked="checked"/>
+						<span>阅读并同意<a href="http://www.mmloo.com/shop/document-agreement.html" target="_blank">服务协议</a></span>
+						<input type="button" class="btn1"/>
+					</div>
+				</div>
+			</div>
+		</form>
+			<!-------------------------版权----------------------------------->	
+	<div class="foot">
+		<div class="foot_top">
+			<p>友情链接:</p>
+			<a href="#">邢台亿搜人才网</a>
+			<a href="#">邯郸中小企业网</a>
+			<a href="#">亿搜人才网</a>
+			<a href="#">众贤服务网</a>
+			<a href="#">快递查询</a>
+		</div>
+		<ul>
+			<li><a href="">关于我们</a></li>
+			<li><a href="">管理团队</a></li>
+			<li><a href="">商家入驻</a></li>
+			<li><a href="">媒体报道</a></li>
+			<li><a href="">站点地图</a></li>
+			<li><a href="">招贤纳士</a></li>
+			<li><a href="">帮助中心</a></li>
+			<p>ICP备案证书号:<a href="">冀ICP备14019346号-1</a></p>
+			
+		</ul>
+		<div class="imm">
+			<img src="img/cxlogo.png" alt="" />
+		</div>
+	</body>		
+</html>
+<script  src="js/require.js" data-main="js/main"></script>
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+	
+</script>
